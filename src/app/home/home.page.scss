@@ -1,3 +1,6 @@
+ion-content{
+  --background: linear-gradient(to right, #003973, #e5e5be);
+}
 #container {
   text-align: center;
 
@@ -24,4 +27,48 @@
 
 #container a {
   text-decoration: none;
+}
+.senha{
+  font-size: 30px;
+  font-family: cursive;
+  color:red;
+  text-align: center;
+  font-size: 50px;
+}
+.h1{
+  font-family: cursive;
+  color:blue;
+  text-align: center;
+}
+.label{
+  font-family: cursive;
+  color:orange;
+}
+.img{
+  padding-left: 450px;
+}
+.barra-0{
+  width: 0%;
+  background-color: black;
+  height: 20px;
+}
+.barra-1{
+  width: 25%;
+  background-color: red;
+  height: 20px;
+}
+.barra-2{
+  width: 50%;
+  background-color: yellow;
+  height: 20px;
+}
+.barra-3{
+  width: 75%;
+  background-color: orange;
+  height: 20px;
+}
+.barra-4{
+  width: 100%;
+  background-color: gold;
+  height: 20px;
 }
